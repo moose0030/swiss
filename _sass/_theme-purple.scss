@@ -1,0 +1,27 @@
+// Purple Theme
+
+// Color variables
+$black: #181818;
+$white: #fff;
+$purple: #4A12A6;
+$purple-dark: #370c7c;
+
+// Config
+$color-background: $purple !default;
+$color-dot-accent: $black !default;
+$color-foreground: $black !default;
+$color-title: $white !default;
+$color-body-text: $black !default;
+$color-text-accent: $purple-dark !default;
+$color-code: $purple-dark !default;
+$color-nav-link: $white !default;
+$color-primary-link: $purple !default;
+
+
+// Import sass partials (used in all themes)
+@import
+        "variables",
+        "base",
+        "components",
+        "utilities"
+;
