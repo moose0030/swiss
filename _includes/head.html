@@ -14,4 +14,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   <script async defer src="https://buttons.github.io/buttons.js"></script>
+  {% if site.fathom %}
+  <script src="https://cdn.usefathom.com/script.js" data-site="{{ site.fathom.id }}" defer></script>
+  {% endif %}
 </head>
