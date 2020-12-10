@@ -1,8 +1,10 @@
 /* Type utilities */
 .h0 {
+  background: $color-background;
   font-size: $h0-mobile;
   line-height: 1.0125;
   margin-top: 0.85em;
+  width: 100%;
   word-wrap: break-word;
 
   @media (min-width: $breakpoint-lg) {
