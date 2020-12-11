@@ -171,7 +171,7 @@
     text-decoration: none !important;
     box-shadow: 0 0 10px $color-nav-link;
     border-radius: 50%;
-    height: 32px
+    height: 32px;
   }
 
   svg {
@@ -186,6 +186,6 @@
 
   &:hover {
     color: $color-primary-link;
-    text-decoration: none !important;
+    text-decoration: unset !important;
   }
 }
