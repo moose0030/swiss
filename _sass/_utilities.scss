@@ -169,9 +169,13 @@
 
   &:hover {
     text-decoration: none !important;
-    svg {
-      fill: $color-nav-link;
-    }
+    box-shadow: 0 0 $color-nav-link;;
+    border-radius: 50%;
+    height: 32px
+  }
+
+  svg {
+    fill: $color-nav-link;
   }
 }
 
