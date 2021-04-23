@@ -14,13 +14,15 @@
           <div class="clearfix border-bottom-thick header-border">
             <ul class="list-reset right py-1 header-text font-smoothing">
               {% for my_page in site.pages %}
-                <li class="inline-block">
-                  {% if my_page.external_url %}
-                    <a class="align-middle link-primary header-link mr-2" href="{{ my_page.external_url }}">{{ my_page.title }}</a>                  
-                  {% else %}
-                    <a class="align-middle link-primary header-link mr-2" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-                  {% endif %}
-                </li>
+                {% if my_page.title %}
+                  <li class="inline-block">
+                    {% if my_page.external_url %}
+                      <a class="align-middle link-primary header-link mr-2" href="{{ my_page.external_url }}">{{ my_page.title }}</a>                  
+                    {% else %}
+                      <a class="align-middle link-primary header-link mr-2" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                    {% endif %}
+                  </li>
+                {% endif %}
               {% endfor %}
             </ul>
           </div>

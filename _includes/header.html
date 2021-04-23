@@ -7,13 +7,15 @@
   <div class="right sm-width-full">
     <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
       {% for my_page in site.pages %}
-        <li class="inline-block">
-          {% if my_page.external_url %}
-            <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.external_url }}">{{ my_page.title }}</a>                
-          {% else %}
-            <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        </li>
+        {% if my_page.title %}
+          <li class="inline-block">
+            {% if my_page.external_url %}
+              <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.external_url }}">{{ my_page.title }}</a>                
+            {% else %}
+              <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% endif %}
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </div>
