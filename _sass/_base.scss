@@ -100,10 +100,12 @@ a:hover {
 
 ul.shaded-list {
   margin: unset;
-  padding: unset;
-  width: 100%;
+  padding: 0 !important;
+  width: 100% !important;
   li {
+    margin-bottom: 0 !important;
     color: $color-foreground;
+    padding: 0.5rem 1rem !important;
     &:nth-of-type(odd) {
       background: $color-code;
     }
