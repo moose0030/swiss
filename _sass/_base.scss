@@ -112,5 +112,8 @@ ul.shaded-list {
     &:nth-of-type(even) {
       background: $color-background;
     }
+    p {
+      margin-bottom: 0.25rem !important;
+    }
   }
 }
