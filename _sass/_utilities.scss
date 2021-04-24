@@ -82,9 +82,6 @@
 }
 .header-link {
   color: $color-nav-link !important;
-  &:hover {
-    font-weight: bold;
-  } // used for navigation links on homepage
 }
 .text-accent {
   color: $color-text-accent;
