@@ -102,12 +102,13 @@ ul.shaded-list {
   margin: unset;
   padding: 0 !important;
   width: 100% !important;
+  list-style: none;
   li {
     margin-bottom: 0 !important;
     color: $color-foreground;
     padding: 0.5rem 1rem !important;
     &:nth-of-type(odd) {
-      background: $color-code;
+      background: $color-secondary-list-color;
     }
     &:nth-of-type(even) {
       background: $color-background;

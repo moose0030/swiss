@@ -2,6 +2,7 @@
 
 // Color variables
 $magenta: #CD2DA8;
+$dark-magenta: #ac1488;
 $black: #2F2323;
 $white: #fff;
 
@@ -15,6 +16,7 @@ $color-text-accent: $magenta !default;
 $color-code: $magenta !default;
 $color-nav-link: $black !default;
 $color-primary-link: $magenta !default;
+$color-secondary-list-color: $dark-magenta;
 
 // Import sass partials (used in all themes)
 @import

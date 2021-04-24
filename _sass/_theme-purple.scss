@@ -4,7 +4,7 @@
 $black: #181818;
 $white: #fff;
 $purple: #4A12A6;
-$purple-dark: #5E11DA;
+$dark-purple: #5E11DA;
 
 // Config
 $color-background: $purple !default;
@@ -12,11 +12,11 @@ $color-dot-accent: $white !default;
 $color-foreground: $white !default;
 $color-title: $white !default;
 $color-body-text: $black !default;
-$color-text-accent: $purple-dark !default;
-$color-code: $purple-dark !default;
+$color-text-accent: $dark-purple !default;
+$color-code: $dark-purple !default;
 $color-nav-link: $white !default;
 $color-primary-link: $purple !default;
-
+$color-secondary-list-color: $dark-purple;
 
 // Import sass partials (used in all themes)
 @import

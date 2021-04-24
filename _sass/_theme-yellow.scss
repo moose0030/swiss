@@ -5,6 +5,7 @@ $black: #181818;
 $white: #fff;
 $gray: #777;
 $yellow: #fec92e;
+$dark-yellow: #c4960d;
 
 
 // Config
@@ -18,7 +19,7 @@ $color-code: $gray !default;
 $color-nav-link: $white !default;
 $color-primary-link: $gray !default;
 $color-border: $yellow;
-
+$color-secondary-list-color: $dark-yellow;
 
 // Import sass partials (used in all themes)
 @import

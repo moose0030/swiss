@@ -3,7 +3,7 @@
 // Color variables
 $black: #181818;
 $red: #E74727;
-$red-dark: #DC3918;
+$dark-red: #DC3918;
 $white: #fff;
 
 // Config
@@ -12,10 +12,11 @@ $color-dot-accent: $black !default;
 $color-foreground: $black !default;
 $color-title: $white !default;
 $color-body-text: $black !default;
-$color-text-accent: $red-dark !default;
-$color-code: $red-dark !default;
+$color-text-accent: $dark-red !default;
+$color-code: $dark-red !default;
 $color-nav-link: $white !default;
 $color-primary-link: $red !default;
+$color-secondary-list-color: $dark-red;
 
 // Import sass partials (used in all themes)
 @import
